@@ -31,6 +31,9 @@ Y = [2,4,6,8]
 print(Var(X))
 print(Slope(X,Y))
 
+#For the Plotting function:
+Plot(X,Y,(Slope(X,Y)),Intercept(X,Y))
+
 #For a full demonstration on use you can run the files demo1.py or demo2.py:
 python demo/demo1.py
 python demo/demo2.py
